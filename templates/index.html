@@ -2,13 +2,13 @@
 
 <html>
 
-<head>
+<head> 
 
 	<meta charset="utf-8">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
 
 	<title>FALUYI (A.) ISAIAH</title>
 
@@ -118,7 +118,7 @@
 
 		<div class="service-item">
 
-			<div class="icon"><img src="./images/download (4).png"></div>
+			<div class="icon"><img src="{{ url_for('static', filename='images/download (4).png')}}"></div>
 
 		<div>
 
@@ -132,7 +132,7 @@
 
 		<div class="service-item">
 
-			<div class="icon"><img src="./images/download (4).png"></div>
+			<div class="icon"><img src="{{ url_for('static', filename='images/download (4).png')}}"></div>
 
 		
 
@@ -148,7 +148,7 @@
 
 		<div class="service-item">
 
-			<div class="icon"><img src="./images/download (4).png"></div>
+			<div class="icon"><img src="{{ url_for('static', filename='images/download (4).png')}}"></div>
 
 		
 
@@ -164,7 +164,7 @@
 
 		<div class="service-item">
 
-			<div class="icon"><img src="./images/download (4).png"></div>
+			<div class="icon"><img src="{{ url_for('static', filename='images/download (4).png')}}"></div>
 
 		
 
@@ -215,7 +215,7 @@
 					</div>
 				</div>
 
-				<div class="project-img"><img src="./images/twisk.png" alt="img"></div>
+				<div class="project-img"><img src="{{ url_for('static', filename='images/twisk.png')}}" alt="img"></div>
 
 			</div>
 
@@ -235,7 +235,7 @@
 					</div>
 			</div>
 			
-			<div class="project-img"><img src="./images/trivia.png" alt="img"></div>
+			<div class="project-img"><img src="{{ url_for('static', filename='images/trivia.png')}}" alt="img"></div>
 
 		</div>			
 
@@ -255,7 +255,7 @@
 					</div>
 			</div>
 
-			<div class="project-img"><img src="./images/dash.png" alt="img"></div>
+			<div class="project-img"><img src="{{ url_for('static', filename='images/dash.png')}}" alt="img"></div>
 
 		</div>
 
@@ -274,7 +274,7 @@
 					</div>
 			</div>
 
-     		<div class="project-img"><img src="./images/fyyur.png" alt="img"></div>
+     		<div class="project-img"><img src="{{ url_for('static', filename='images/fyyur.png')}}" alt="img"></div>
 
 		</div>
 
@@ -304,7 +304,7 @@
 
 		<div class="col-left">
 
-			<div class="about-img"><img src="./images/image.jpg" alt="img"></div>
+			<div class="about-img"><img src="{{ url_for('static', filename='images/image.jpg')}}" alt="img"></div>
 
 		</div>
 
@@ -339,7 +339,7 @@
 
 
 
-<!-- contact section --->
+<!-- contact section -->
 
 <section id="contact">
 
@@ -351,7 +351,7 @@
 
 			<div class="contact-item">
 
-				<div class="contact-icon"><img src="./images/contacts.png"></div>
+				<div class="contact-icon"><img src="{{ url_for('static', filename='images/contacts.png')}}"></div>
 
 				<div class="contact-info">
 
@@ -367,7 +367,7 @@
 
 			<div class="contact-item">
 
-				<div class="contact-icon"><img src="./images/gmail.png"></div>
+				<div class="contact-icon"><img src="{{ url_for('static', filename='images/gmail.png')}}"></div>
 
 				<div class="contact-info">
 
@@ -387,7 +387,7 @@
 
 			<div class="contact-item">
 
-				<div class="contact-icon"><img src="./images/address.png"></div>
+				<div class="contact-icon"><img src="{{ url_for('static', filename='images/address.png')}}"></div>
 
 				<div class="contact-info">
 
@@ -415,11 +415,11 @@
 
 
 
-<!-- End of contact section --->
+<!-- End of contact section -->
 
 
 
-<!--- footer--->
+<!--- footer -->
 
 <section id="footer">
 
@@ -437,19 +437,19 @@
 
 			<div class="social-item">
 
-				<a href="https://web.facebook.com/phaluyee.hisaryar"><img src="./images/facebook.jpg"></a>
+				<a href="https://web.facebook.com/phaluyee.hisaryar"><img src="{{ url_for('static', filename='images/facebook.jpg')}}"></a>
 
 			</div>
 
 			<div class="social-item">
 
-				<a href="https://github.com/Faluyi"><img src="./images/github.jpg"></a>
+				<a href="https://github.com/Faluyi"><img src="{{ url_for('static', filename='images/github.jpg')}}"></a>
 
 			</div>
 
 			<div class="social-item">
 
-				<a href="https://www.linkedin.com/in/faluyiisaiah/"><img src="./images/linkedln.jpg"></a>
+				<a href="https://www.linkedin.com/in/faluyiisaiah/"><img src="{{ url_for('static', filename='images/linkedln.jpg')}}"></a>
 
 			</div>
 
@@ -463,9 +463,9 @@
 
 
 
-<!--- end of footer--->
+<!--- end of footer -->
 
-<script type="text/javascript" src="./app.js"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='app.js')}}"></script>
 
 </body>
 
